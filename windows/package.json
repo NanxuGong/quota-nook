@@ -1,0 +1,16 @@
+{
+  "name": "quota-nook",
+  "productName": "Quota Nook",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "An unofficial pixel-art Codex quota widget for Windows",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "pack:win": "electron-packager . \"Quota Nook\" --platform=win32 --arch=x64 --out=dist --overwrite --ignore=dist"
+  },
+  "devDependencies": {
+    "@electron/packager": "20.3.0",
+    "electron": "44.4.4"
+  }
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Quota Nook</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="renderer.js"></script>
+</head>
+<body>
+  <main id="card" class="afternoon">
+    <img id="mascot" src="assets/mascot.png" alt="">
+    <div id="sleep">Z</div>
+    <div class="content">
+      <header><h1>Usage</h1><div class="header-right"><span class="clock">◷</span><span id="next-reset">Resets in —</span><button id="refresh" title="Refresh now">↻</button></div></header>
+      <div class="brand"><span class="brand-bar"></span>CODEX</div>
+      <div class="row"><span class="label">Session</span><div class="track"><div id="session-bar" class="fill"></div></div><span id="session-value" class="value">—</span><span id="session-reset" class="reset">—</span></div>
+      <div class="row"><span class="label">Weekly</span><div class="track"><div id="weekly-bar" class="fill secondary"></div></div><span id="weekly-value" class="value">—</span><span id="weekly-reset" class="reset">—</span></div>
+    </div>
+    <footer><em id="quote">A calmer mind, a brighter tomorrow.</em><span id="status">Connecting to Codex…</span><span class="codex-mark">◇</span><strong>Codex</strong></footer>
+  </main>
+</body>
+</html>
