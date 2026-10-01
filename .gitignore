@@ -1,0 +1,8 @@
+node_modules/
+dist/
+macos/dist/
+windows/dist/
+*.app/
+*.zip
+.DS_Store
+usage.json
